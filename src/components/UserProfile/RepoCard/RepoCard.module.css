@@ -1,0 +1,21 @@
+.repo_details {
+  display: flex;
+}
+.repo_details p {
+  padding-right: 30px;
+}
+.repo_name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0366d6;
+  text-transform: capitalize;
+}
+.repo_language::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: inline-block;
+  background-color: red;
+}
